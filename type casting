@@ -1,0 +1,19 @@
+#float to an integer
+float_num =3.8
+int_num =int(float_num)     
+print(f"float to int:{int_num }")
+#integer to a float
+int_val=5
+float_val=float(int_val)
+print(f"int to float:{float_val}")
+#integer to string
+num=42
+str_num =str(num)
+print(f"int to string: '{str_num}'(type:{type(str_num)})")
+#non zero numbers and non-empty sequences to true
+bool_true_int=bool(10)
+bool_true_str=bool("hello")
+bool_true_list=bool([1,2])
+print(f"non-zero int to bool:{bool_true_int}")
+print(f"non-empty string to bool:{bool_true_str}")
+print(f"non-empty list to bool:{bool_true_list}")
