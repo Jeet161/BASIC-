@@ -1,0 +1,12 @@
+x=156
+print(x)
+y=0b10111
+print(y)
+z=0o27
+print(z)
+a=0x17
+print(a)
+
+values = [x, y, z, a]
+for i in values:
+    print(i, "->", type(i))
