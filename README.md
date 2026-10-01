@@ -1,2 +1,2 @@
-python basics
-.
+python basics.
+
