@@ -1,3 +1,1 @@
-python basics.
-
-.
+python basics first 
